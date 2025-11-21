@@ -1,67 +1,118 @@
-<img src="assets/icons/icon.png" width="200" />
+<!-- HERO -->
+<h1 align="center">💧 Water Reminder Desktop App</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Electron-47848F?logo=electron&logoColor=white" />
+  <img src="https://img.shields.io/github/stars/AnukarOP/Water-Reminder-desktop-app?style=flat&color=blue" />
+  <img src="https://img.shields.io/github/forks/AnukarOP/Water-Reminder-desktop-app?style=flat&color=blueviolet" />
+  <img src="https://img.shields.io/github/license/AnukarOP/Water-Reminder-desktop-app?color=success" />
+  <a href="https://github.com/sponsors/AnukarOP">
+    <img src="https://img.shields.io/badge/Sponsor-❤-ff69b4" />
+  </a>
+</p>
 
-# Water Reminder Application
+<!-- Animated wave (SVG placeholder) -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3BAFDA,100:0F4C75&height=120&section=header&text=Stay%20Hydrated&fontSize=32&fontAlignY=40&animation=fadeIn" alt="wave banner" />
+</p>
 
-This is a simple Electron application designed to remind you to drink water every hour. The application features a user-friendly interface and utilizes a timer to send notifications at regular intervals.
+<!-- TAGLINE -->
+<p align="center">
+  Stay hydrated. Smart interval reminders. Light & dark UI. Progress & daily streak tracking.
+</p>
+
+<!-- SECOND WAVE -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F4C75,100:3BAFDA&height=90&section=header&animation=twinkling" alt="animated wave separator" />
+</p>
+
+## Overview
+A cross-platform Electron app that nudges you to drink water at healthy intervals while tracking daily intake, streaks, and achievements.
 
 ## Features
-
-- Hourly reminders to drink water
-- Simple and intuitive user interface
-- Customizable notification settings
+- Customizable reminder intervals
+- Auto light / dark mode
+- Daily consumption stats + streak tracker
+- Achievement milestones (e.g., 7-day streak, 2L consistency)
+- Native notifications
+- Easy packaging (electron-builder)
+- Persistent settings & history
 
 ## Project Structure
-
-```
+```text
 water-reminder
 ├── src
-│   ├── main.js          # Main entry point for the Electron application
-│   ├── renderer.js      # Handles UI logic and user interactions
-│   ├── index.html       # Main HTML file for the application
-│   └── styles.css       # Styles for the application
+│   ├── main.js
+│   ├── renderer.js
+│   ├── index.html
+│   └── styles.css
 ├── assets
-│   └── icons
-│       └── app-icon.icns # Application icon for macOS
-├── package.json         # Configuration file for npm
-├── electron-builder.yml  # Configuration for building the Electron application
-└── README.md            # Documentation for the project
+│   └── icons/
+├── package.json
+├── electron-builder.yml
+└── README.md
 ```
 
 ## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/rmarchet/water-reminder.git
-   cd water-reminder
-   ```
-
-2. Install the dependencies:
-   ```
-   yarn install
-   ```
-
-## Running the Application
-
-To start the application, run the following command:
+```bash
+git clone https://github.com/AnukarOP/Water-Reminder-desktop-app.git
+cd water-reminder
+yarn install
 ```
+
+## Run
+```bash
 yarn start
 ```
 
-<img src="Screenshot.png" />
-
-## Building the Application
-
-To build the application for distribution, use:
-```
+## Build
+```bash
 yarn build
 ```
 
-## Creating the ICNS file
-MacOS Icons can be created starting from the icon.png file:
-```
-yarn makeicons assets/icons/icon.png assets/icons/app-icon.icns
-```
+## Screenshots
+<!-- Replace placeholder.png with real paths -->
+### Light & Dark Mode
+<table>
+<tr>
+<td><img src="assets/screenshots/light-1.png" width="48%" /></td>
+<td><img src="assets/screenshots/dark-1.png" width="48%" /></td>
+</tr>
+</table>
+
+### Stats & Achievements
+<table>
+<tr>
+<td><img src="assets/screenshots/stats-1.png" width="48%" /></td>
+<td><img src="assets/screenshots/achievements-1.png" width="48%" /></td>
+</tr>
+</table>
+
+## Sponsor
+<div align="center">
+  <a href="https://github.com/sponsors/AnukarOP">
+    <img src="https://img.shields.io/badge/Sponsor%20Me-GitHub-ff4275?style=for-the-badge&logo=github" alt="Sponsor Me on GitHub"/>
+  </a>
+  <br/>
+  <a href="https://github.com/sponsors/AnukarOP">
+    <img src="https://img.shields.io/badge/Become%20a%20Hydration%20Hero-💧-1e90ff?style=for-the-badge" alt="Become a Hydration Hero"/>
+  </a>
+</div>
+<p align="center">
+  <strong>Your support fuels me up :)</strong>
+</p>
+
+## Tech Stack
+- Electron
+- HTML/CSS/JS
+- Node APIs
 
 ## License
+MIT
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+<!-- FINAL WAVE -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:3BAFDA&height=140&section=footer&animation=fadeIn" alt="footer wave" />
+</p>
+<p align="center">
+  Made with ❤️ by Anukar.
+</p>
